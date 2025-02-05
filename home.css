@@ -1,0 +1,141 @@
+body{
+	background-color: #183D3D;
+}
+
+.element{
+	width: 100vw;
+	margin-top: 6%;
+}
+.inside-element{
+	display: flex;
+	justify-content: space-between;
+	z-index: 9999;
+    max-width: 90vw;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+	/* background-color: red; */
+}
+.inside-element div{
+	min-height: 40vh;
+	width: 20vw;
+	display: flex;
+	justify-content: center;
+	border-radius: 10px;
+}
+h4{
+	text-align: center;
+	padding: 10px;
+	background-color: #495E57;
+	min-width: 90%;
+	border-radius: 20px;
+	font-size: 20px;
+	height: fit-content;
+	margin: 15px 0;
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	letter-spacing: 2px;
+}
+
+/* FOUR ELEMENTS */
+.one{
+	background-image: url("pics/fundamentalpic.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	box-shadow: 10px 15px 20px black;
+	border-radius: 10px;
+	/* box-shadow: 0 0 3rem 0 rgba(0, 0, 0, 1.5); */
+}
+.two{
+	background-image: url("pics/roadSign.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	box-shadow: 10px 15px 20px black;
+	border-radius: 10px;
+	/* box-shadow: 0 0 3rem 0 rgba(0, 0, 0, 1.5); */
+}
+.three{
+	background-image: url("pics/rules.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	box-shadow: 10px 15px 20px black;
+	border-radius: 10px;
+	/* box-shadow: 0 0 3rem 0 rgba(0, 0, 0, 1.5); */
+}
+.four{
+	background-image: url("pics/fines.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-radius: 10px;
+	/* box-shadow: 0 0 3rem 0 rgba(0, 0, 0, 1.5); */
+	box-shadow: 10px 15px 20px black;
+}
+.one:hover, .two:hover, .three:hover, .four:hover{
+	transform: scale(1.02);
+	transition: 1s;
+}
+
+
+/* Styles for the dropdown menu */
+#dp{
+	height: 65px;
+	width: 65px;
+}
+nav .dropdown{
+	max-height: 60px;
+	/* background-color: white; */
+	/* margin: 0 30px 0 0; */
+}
+.dropbtn{
+	display: block;
+}
+.dropdown-content {
+	display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 10vw;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  text-align: center;
+  transform: translateX(-60px);
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 15px 50px;
+  text-decoration: none;
+  display: block;
+  transition: background-color 1s ease;
+}
+
+
+.dropdown-content a:hover {
+  	background-color: #183D3D;
+  
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+body{
+    /* background-color: rgb(172, 38, 38); */
+	/* background-image: linear-gradient(to right, rgb(117, 115, 115) 0%, rgb(65, 62, 62) 35%, rgb(56, 56, 56) 100%); */
+    display: flex;
+    position: relative;
+    height: 100vh;
+	width: auto;
+}
+/* body::after{
+    position: absolute;
+    background-color: #183D3D;
+    inset: 0;
+    content: "";
+    z-index: -1;
+    clip-path: polygon(
+		100% 15%, 
+		100% 100%, 
+		0% 100%
+	);
+}  */

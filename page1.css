@@ -1,0 +1,224 @@
+body{
+	background-image: url(displaybg.jpg); 
+	background-size: cover;
+	display: flex;
+    position: relative;
+    height: 100vh;
+	width: auto;
+}
+
+/* Styles for the dropdown menu */
+#dp{
+	height: 65px;
+	width: 65px;
+}
+nav .dropdown{
+	max-height: 60px;
+	/* background-color: white; */
+	/* margin: 0 30px 0 0; */
+}
+.dropbtn{
+	display: block;
+}
+.dropdown-content {
+  	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	min-width: 10vw;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+	text-align: center;
+	transform: translateX(-60px);
+}
+
+.dropdown-content a {
+	color: black;
+	padding: 15px 50px;
+	text-decoration: none;
+	display: block;
+	transition: background-color 1s ease;
+}
+
+.dropdown-content a:hover {
+  	background-color: #183D3D;
+  
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.container{
+	margin: auto;
+}
+.wrapper{
+	margin: 5% 0 0 5%;
+}
+.wrapper h1{
+	font-family: 'Poppins', sans-serif;
+	text-align: center;
+	font-size: 3rem;
+	margin: 10% 0 5% 0;
+}
+.option-title{
+	margin: 15% 0 0 0;
+	padding: 15px 20px;
+	position: fixed;
+	text-transform: uppercase;
+	font-family: 'Poppins', sans-serif;
+}
+/* BUTTONS FOR OPTION */
+.option{
+	/* background-color: red; */
+	max-width: 90vw;
+	display: flex;
+	margin: auto;
+	justify-content: space-evenly;
+}
+.option button{
+	outline: none;
+	background-color: white;
+	border: none;
+	padding: 10px;
+	font-size: 18px;
+	text-transform: uppercase;
+	border-radius: 5px;
+	font-family: 'Ubuntu', sans-serif;
+}
+.option button:hover{
+	background-color: #F4CE14;
+}
+
+/* MANUAL */
+.manual{
+	/* background-color: green; */
+	max-width: 80vw;
+	/* margin: 20px 0 0 20px; */
+	/* float: right; */
+}
+.manual img{
+	max-height: 50vh;
+	min-width: 35vw;
+	border-radius: 20px;
+	/* padding: 10px; */
+	/* background-color: brown; */
+}
+.manual label{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.5rem;
+	padding: 0 5%;
+	line-height: 35px;
+	text-align: justify;
+}
+.manual-element{
+	/* background-color: red; */
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 10% 0;
+}
+.manual-element span{
+	text-transform: uppercase;
+	/* margin: 10px; */
+	/* background-color: red; */
+	/* margin: 0 0 50px 0; */
+	font-size: 2rem;
+	letter-spacing: 1px;
+	font-weight: bold;
+}
+
+/* AUTOMATIC */
+.automatic{
+	/* background-color: green; */
+	max-width: 80vw;
+	/* margin: 20px 0 0 20px; */
+	/* float: right; */
+}
+.automatic img{
+	max-height: 50vh;
+	min-width: 35vw;
+	border-radius: 20px;
+	/* padding: 10px; */
+	/* background-color: brown; */
+}
+.automatic label{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.5rem;
+	padding: 0 5%;
+	line-height: 35px;
+	text-align: justify;
+}
+.automatic-element{
+	/* background-color: red; */
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 10% 0;
+}
+.automatic-element span{
+	text-transform: uppercase;
+	/* margin: 10px; */
+	padding: 10px 0;
+	font-size: 2rem;
+	letter-spacing: 1px;
+	font-weight: bold;
+}
+#scroller{
+	text-decoration: none;
+	color: black;
+}
+
+/* ****NEXT BUTTON**** */
+.btn-preview{
+    /* background-color: red; */
+    max-width: 20vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10% auto;
+}
+.btn-next button{
+	background-color: #495E57;
+	color: white;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 20px;
+	margin: 5% 0;
+	padding: 10px 30px;
+	letter-spacing: 2px;
+	outline: none;
+	border: none;
+	border-radius: 5px;
+	/* position: absolute; */
+}
+.preview h3{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* ****NEXT BUTTON**** */
+.btn-preview2{
+    /* background-color: red; */
+    max-width: 20vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10% auto;
+}
+.btn-next2 button{
+	background-color: #495E57;
+	color: white;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 20px;
+	margin: 5% 0;
+	padding: 10px 30px;
+	letter-spacing: 2px;
+	outline: none;
+	border: none;
+	border-radius: 5px;
+	/* position: absolute; */
+}
+.preview2 h3{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+}

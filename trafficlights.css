@@ -1,0 +1,222 @@
+
+/* Styles for the dropdown menu / NAVIGATION*/
+#dp{
+	height: 65px;
+	width: 65px;
+}
+nav .dropdown{
+	max-height: 60px;
+	/* background-color: white; */
+	/* margin: 0 30px 0 0; */
+}
+.dropbtn{
+	display: block;
+}
+.dropdown-content {
+	display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 10vw;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  text-align: center;
+  transform: translateX(-60px);
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 15px 50px;
+  text-decoration: none;
+  display: block;
+  transition: background-color 1s ease;
+}
+
+
+.dropdown-content a:hover {
+  	background-color: #183D3D;
+  
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+/* TRAFFIC LIGHTS STYLE */
+.trafficlight{
+  max-width: 80vw;
+  margin: 5% auto;
+}
+.trafficlight h2{
+  text-transform: uppercase;
+  text-align: center;
+  margin: 10%;
+  font-size: 2rem;
+  font-family: 'Montserrat', sans-serif;
+}
+.trafficlights-element{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10% 0;
+}
+.trafficlights-element img{
+  max-height: 40vh;
+  min-width: 30vw;
+}
+.trafficlights-element .label{
+  font-size: 1.8rem;
+  font-family: 'Poppins', sans-serif;
+  padding: 0 80px;
+}
+.trafficlights-element .label span{
+  font-weight: bolder;
+  letter-spacing: 3px;
+}
+
+/* PROPER BRAKING */
+.properbraking{
+  /* background-color: pink; */
+  max-width: 80vw;
+  margin: auto;
+}
+.properbraking h2{
+  text-transform: uppercase;
+  text-align: center;
+  margin: 5%;
+  font-size: 1.8rem;
+  font-family: 'Montserrat', sans-serif;
+}
+.properbraking-element{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.scroll-box{
+  background-color: #F4CE14;
+  border-radius: 10px;
+  /* max-height: ; */
+  max-width: 40vw;
+  max-height: 40vh;
+  margin: 0 30px;
+  overflow: auto;
+  
+}
+.scroll-box h1{
+  text-transform: uppercase;
+  text-align: center;
+  margin: 2%;
+  font-size: 2rem;
+  font-family: 'Montserrat', sans-serif;
+}
+.scroll-box p{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  padding: 5px 40px;
+}
+.scroll-box::-webkit-scrollbar{
+  width: 10px;
+}
+.scroll-box::-webkit-scrollbar-thumb{
+  background-color: red;
+  border-radius: 5px;
+}
+
+/* ******************************** */
+/* SPEED RESTRICTION */
+
+.speedRestriction{
+  /* background-color: red; */
+  margin: 10%;
+  justify-content: center;
+  align-items: center;
+
+}
+.speedRestriction h2{
+  text-transform: uppercase;
+  text-align: center;
+  margin: 2%;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.8rem;
+}
+table{
+  /* background-color: pink; */
+  /* align-items: center; */
+  min-width: 40vw;
+  margin: auto;
+  font-family: 'Montserrat', sans-serif;
+
+}
+table tr td{
+  height: 20px;
+  background-color: rgb(255, 207, 118);
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 10px;
+}
+thead tr th{
+  background-color: rgb(16, 148, 172);
+  text-transform: capitalize;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  padding: 15px;
+  border-radius: 10px;
+}
+tbody tr td:last-child{
+  text-align: center;
+}
+
+/* ****EXCEPTION ********* */
+/* ol li{
+	list-style: dotted;
+	font-size: 24px;
+	line-height: 1.5;
+} */
+
+.exception{
+  /* background-color: red; */
+  max-width: 70vw;
+  margin: 5% auto;
+  
+}
+
+.exception h2{
+  font-family: 'Poppins', sans-serif;
+  font-size: 2rem;
+  text-align: center;
+  margin: 5% 0;
+}
+
+ol{
+  font-size: 1.5rem;
+  font-family: 'Montserrat', sans-serif;
+  text-align: justify;
+  padding: 0 30px;
+  line-height: 40px;
+}
+
+/* ****HOME BUTTON**** */
+.btn_preview{
+  display: flex;
+  max-width: 20vw;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10% auto;
+}
+.btn-next button{
+background-color: #495E57;
+color: white;
+font-family: 'Ubuntu', sans-serif;
+font-size: 20px;
+margin: 5% 0;
+padding: 10px 30px;
+letter-spacing: 2px;
+outline: none;
+border: none;
+border-radius: 5px;
+}
+.preview h3{
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+}
